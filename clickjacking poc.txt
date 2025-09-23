@@ -1,0 +1,13 @@
+..........................................................clickjacking POC............................................................
+
+Visit the GitHub(shifa123 clickjacking poc)
+
+copy this url https://github.com/shifa123/clickjackingpoc.git
+
+git clone <pastebthat url>
+
+cd clickjackingpoc(go to this directory)
+
+php -S localhost:8000
+
+then create the POC

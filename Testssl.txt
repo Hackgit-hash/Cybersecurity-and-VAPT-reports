@@ -1,0 +1,12 @@
+1)Install and update
+sudo apt update
+sudo apt install git -y
+
+2)download or launch the testssl in kali
+git clone --depth 1 https://github.com/drwetter/testssl.sh.git
+
+3)Go inside testssl directory
+cd testssl.sh
+
+4)enter the command and go to that directory
+./testssl.sh https://example.com

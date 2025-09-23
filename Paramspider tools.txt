@@ -1,0 +1,18 @@
+Activation of environment:
+
+cd ~/Desktop/ParamSpider-master
+source venv/bin/activate
+
+
+Run the environment:
+
+python3 -m paramspider.main -d <target-domain> > output.txt
+ -d---> domain want to save
+  target.... saves the output
+
+cat <target....> or nano <target....> to open the file
+
+option flags
+-s	                          Scan subdomains too
+--proxy http://127.0.0.1:8080	  Send requests through Burp Suite proxy
+-l <wordlist>	                  Use a custom parameter wordlist

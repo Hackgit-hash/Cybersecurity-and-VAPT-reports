@@ -1,0 +1,26 @@
+Steps to Run shcheck.py
+
+1. Open Terminal in Kali Linux.
+
+2. Navigate to shcheck folder (where you cloned/copied it):
+   cd ~/tools/shcheck
+
+3. Activate virtual environment (if created):
+   source venv/bin/activate
+
+4. Install required Python package (if not done yet):
+   pip install requests
+
+5. Run shcheck.py with SSL ignore option:
+   python3 shcheck.py -d https://zero.webappsecurity.com
+
+6. Optional: Save output to a file:
+   python3 shcheck.py -d https://zero.webappsecurity.com > shcheck_results.txt
+
+7. View saved results (if saved to a file):
+   cat shcheck_results.txt
+   OR
+   nano shcheck_results.txt
+
+8. Deactivate virtual environment (when done):
+   deactivate
